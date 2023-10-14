@@ -117,3 +117,125 @@ span {
     z-index: 2;
 }
 
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .logo {
+        margin: 3rem 0 2rem 3rem;
+    }
+
+    .title {
+        font-size: 5.5rem;
+        margin: 10rem 0 0 3rem;
+    }
+
+    .special {
+        z-index: 1;
+    }
+
+    .info {
+        margin: 1rem 0 0 3rem;
+    }
+
+    button {
+        margin: 1.2rem 0 0 3rem;
+    }
+    
+    .twitter {
+        margin: 10rem 0 0 3rem;
+    }
+
+    .user1 {
+        left: 38rem;
+        bottom: 42rem;
+    }
+
+    .user2 {
+        left: 28rem;
+        bottom: 52rem;
+        width: 160px;
+    }
+
+    .user3 {
+        width: 120px;
+        bottom: 50rem;
+        left: -13rem;
+    }
+
+    .user4 {
+        left: 5rem;
+        bottom: 13rem;
+        width: 210px;
+    }
+
+    .user5 {
+        left: -10rem;
+        bottom: 45rem;
+        z-index: 0;
+    }
+
+    .user6 {
+        width: 120px;
+        bottom: 39rem;
+        left: 30rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .user1, .user4, .user5 {
+        display: none;
+    }
+
+    .logo {
+        margin: 2rem 0 4rem 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin: 10rem 0 0 1rem;
+        letter-spacing: 0;
+    }
+
+    .info {
+        margin: 1rem 0 0 1rem;
+        width: 300px;
+    }
+
+    button {
+        margin: 1.2rem 0 0 1rem;
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .twitter {
+        margin: 12rem 0 0 1rem;
+    }
+
+    .user2 {
+        left: 12rem;
+        bottom: 41rem;
+        width: 160px;
+    }
+    
+    .user3 {
+        width: 100px;
+        bottom: 43rem;
+        left: -7rem;
+    }
+
+    .user6 {
+        width: 150px;
+        bottom: 27rem;
+        left: 11rem;
+        z-index: 0;
+    }
+    
+}
